@@ -1,0 +1,27 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: coral;
+}
+
+main {
+    margin: 1em auto;
+    display: flex;
+    background: black;
+}
+
+.columna div{
+    border: 1px solid purple;
+    padding: 1em;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    
+}
